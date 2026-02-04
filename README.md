@@ -48,3 +48,42 @@ Day 12: Modern C# features — async/await, Tasks, records, pattern matching, nu
 Day 13: Final certification project (classes, collections, file I/O, async)
 
 Day 14: Review, polish, and certification submission
+
+## Project Structure
+
+The repository organizes daily exercises and the final project under `src`:
+
+```
+src/
+	day01/
+	day02/
+	day03/
+	day04/
+	day05/
+	day06/
+	day07/
+	day08/
+	day09/
+	day10/
+	final_project/
+```
+
+Mermaid diagram of the layout:
+
+```mermaid
+flowchart TD
+	root[Foundational_CSharp_Certification] --> SRC[src]
+	SRC --> d01[day01]
+	SRC --> d02[day02]
+	SRC --> d03[day03]
+	SRC --> d04[day04]
+	SRC --> d05[day05]
+	SRC --> d06[day06]
+	SRC --> d07[day07]
+	SRC --> d08[day08]
+	SRC --> d09[day09]
+	SRC --> d10[day10]
+	SRC --> final[final_project]
+```
+
+To add more days, create additional `src/dayNN` folders (e.g., `day11`, `day12`, …) following the same pattern.
